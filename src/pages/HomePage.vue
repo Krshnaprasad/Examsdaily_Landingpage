@@ -3,8 +3,8 @@
         <div class="container q-pb-xl">
             <div class="row justify-center">
                 <div>
-                    <img class="mainimg q-pt-md" src="../assets/ed.png" style="max-width:40px; max-height:40px">
-                    &nbsp;<span class="text-h6 text-weight-bolder text-red q-mb-xl">Exams<span class="text-indigo">Daily</span></span>
+                    <img class="gt-sm q-pt-md" src="https://examsdaily.in/wp-content/uploads/2020/12/examsdaily-new-png-png.png" style="max-width:150px; max-height:150px">
+                    <img class="lt-md q-pt-md" src="https://examsdaily.in/wp-content/uploads/2020/12/examsdaily-new-png-png.png" style="max-width:100px; max-height:100px">
                 </div>
             </div>
             <div class=" mainhd text-center text-weight-bolder q-pt-xl">
