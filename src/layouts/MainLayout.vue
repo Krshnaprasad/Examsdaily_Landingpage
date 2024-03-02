@@ -53,24 +53,24 @@
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
 
 
 
 
-export default defineComponent({
+
+export default{
   name: 'MainLayout',
 
  
 
-  setup () {
+  data () {
    
 
     return {
       
     }
   }
-})
+}
 </script>
 <style>
 .textftr{
