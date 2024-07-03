@@ -16,7 +16,7 @@
                 <p class="tex text-center">Discover limitless career opportunities at our job applying site,where<br>
                     ambition meets opportunity. Elevate your professional journey with ease.</p>
             </div>
-            <div class="row justify-evenly q-pt-md  text-caption gt-sm" >        
+            <div class="row justify-evenly q-pt-md  text-caption gt-sm" >
                 <q-card class="inp flex justify-evenly shadow-1 srch" style="width:650px"><q-input borderless v-model="text" placeholder="Eg:Backend Developer |" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <q-input class="inp order-md-2 order-2" borderless v-model="text" placeholder="Eg:Work from home |" /><br>
                     <q-input class="inp" borderless v-model="text" placeholder="Eg: Madurai" /><br>
@@ -66,13 +66,13 @@
                                     <q-icon name="chair"></q-icon>{{ jobs.seats }}&nbsp;
                                     <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                                    </svg>{{ jobs.locat }}</span> 
+                                    </svg>{{ jobs.locat }}</span>
                             </div>
                         </div>
                     </q-btn>
                             </div>
-                   
-                  
+
+
                      </div>
                 </div>
         </div>
@@ -86,7 +86,7 @@
                             <div class="edlog1 q-pt-xl">
                                 <q-btn class="edlog rounded-borders" icon="label" outline style="color: rgb(32, 103, 218);"> Try to Predict the Interview Questions</q-btn><br>
                               </div>
-                              <div class="q-pr-xl">  
+                              <div class="q-pr-xl">
                                 <q-btn class="edlog1" icon="label" flat style="color: #a19d9d" label="Pay attention to job title variations" /><br>
                                 <q-btn class="edlog1" icon="label" flat style="color: #a19d9d" label="Network whenever possible" />
                             </div>
@@ -112,29 +112,15 @@
                         </div>
                     </div>
                     <div class="col-md-7 col-12 q-pt-xl">
-                        
+
                         <span class="mained1 text-weight-bolder">Explore Every Opportunity: Your</span><br>
                         <span class="mained1 text-weight-bolder">Gateway to All Jobs!</span><br>
-                     <div class="q-pt-xl gt-sm">
-                        <span class="q-pt-md btclr"><q-btn class="but text-white text-weight-bolder">Selina</q-btn></span>
-                        <span class="q-pt-md btclr"><q-btn class="but text-white text-weight-bolder">Rubini</q-btn></span>
-                        <span class="q-pt-md btclr"><q-btn class="but text-white text-weight-bolder">Nagajothi</q-btn></span>
-                        <span class="q-pt-md btclr"><q-btn class="but text-white text-weight-bolder">Vasanth</q-btn></span>
-                        <span class="q-pt-md btclr"><q-btn class="but text-white text-weight-bolder">Azar</q-btn></span>
-                    </div>
 
-                    <div class="q-pt-xl lt-md">
-                        <span class="q-pt-md btcl"><q-btn class="but1 text-white text-weight-bolder">Selina</q-btn></span>
-                        <span class="q-pt-md btcl"><q-btn class="but1 text-white text-weight-bolder">Rubini</q-btn></span>
-                        <span class="q-pt-md btcl"><q-btn class="but1 text-white text-weight-bolder">Nagajothi</q-btn></span>
-                        <span class="q-pt-md btcl"><q-btn class="but1 text-white text-weight-bolder">Vasanth</q-btn></span>
-                        <span class="q-pt-md btcl"><q-btn class="but1 text-white text-weight-bolder">Azar</q-btn></span>
-                    </div>                    
                 </div>
                 </div>
             </div>
         </div>
- 
+
 </template>
 <script>
 const job=[
@@ -191,7 +177,7 @@ const job=[
         sals:'1lac/yr',
         seats:'10',
         locat:'Madurai'
-        
+
     },
 
     ]
@@ -200,7 +186,7 @@ export default{
         return{
             job
         }
-        
+
     },
 
 }
@@ -219,7 +205,7 @@ export default{
 }
 .mainsecnd{
     font-size:2em;
-  
+
 }
 .edlog{
     font-size: 1em;
@@ -245,29 +231,29 @@ export default{
 }
 .mainsecnd{
     font-size:2em;
-  
+
 }
 .edlog{
     font-size: 1em;
 }
 .edlog1{
     font-size:0.8em;
-}  
+}
 }
 @media(min-width:800px){
 .cd{
     padding-left: 50px;
-}    
+}
 .mainsecnd{
     font-size:3em;
-}    
+}
 .mainhd{
 font-size:4em
 }
 .mained1{
 font-size:2.7em;
 padding-left: 30px;
-} 
+}
 .edlog{
     font-size: 1.2em;
     text-transform: capitalize;
@@ -295,7 +281,7 @@ color: transparent;
 }
 .btclr{
     padding-left: 30px;
-   
+
 }
 .but{
     background-color: #4158D0;
@@ -310,7 +296,7 @@ color: transparent;
     width: 100px;
     text-transform: capitalize;
     margin: 5px;
-    
+
 }
 .btcl{
     padding-left: 80px;

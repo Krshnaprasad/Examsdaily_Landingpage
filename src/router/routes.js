@@ -14,6 +14,7 @@ const routes = [
       { path: '/job', component: () => import('pages/JobPage.vue') }
     ]
   },  
+  
 ]
 
 export default routes
